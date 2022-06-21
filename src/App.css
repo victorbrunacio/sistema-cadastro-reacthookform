@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    gap: 4rem;
+    margin: 5rem 0;
+}
+img {
+    width: 40vh;
+}
+label{
+    display: flex;
+    flex-direction: column;
+}
+input {
+    border-radius: 8px;
+    border: 1px solid grey;
+    padding: 5px;
+}
+button{
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: #DB658F;
+    font-weight: 800;
+    font-size: 1.2rem;
+    text-align: center;
+    border: 0.5px solid black;
+    cursor: pointer;
+    
+}
+button:hover{
+    background-color: #d82f6a;
+    border: none;
+    transition: 0.5s;
+}
+span{
+    color: rgb(255, 28, 28);
+    position: absolute;
+    margin-top: 3rem;
+}
